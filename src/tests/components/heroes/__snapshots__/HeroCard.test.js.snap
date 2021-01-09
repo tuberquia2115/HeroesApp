@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeroCard/> debe mostrarse correctamente 1`] = `
+<div
+  className="card ms-3"
+  style={
+    Object {
+      "maxWidth": "540px",
+    }
+  }
+>
+  <div
+    className="row no-gutters"
+  >
+    <div
+      className="col-md-4"
+    >
+      <img
+        alt="Batman"
+        className="card-img"
+        src="dc-batman.jpg"
+      />
+    </div>
+    <div
+      className="col-md-8 "
+    >
+      <div
+        className="card-body"
+      >
+        <h5
+          className="card-title"
+        >
+          Batman
+        </h5>
+        <p
+          className="card-text"
+        >
+          Bruce Wayne
+        </p>
+        <p
+          className="card-text"
+        >
+          <small
+            className="text-muted"
+          >
+            Detective Comics #27
+          </small>
+        </p>
+        <Link
+          to="./hero/dc-batman"
+        >
+          MÁS ...
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;

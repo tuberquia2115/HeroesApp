@@ -7,8 +7,8 @@ export const HeroList = ({ publisher }) => {
     let heroes = useMemo(() => getHeroesByPublisher(publisher), [publisher])
     return (
         <div className="row align-items-start animate__animated animate__fadeIn">
-            {heroes.map(hero => (
-                <HeroCard key={hero.id} {...hero} />
+            {heroes.map((hero) => (
+                <HeroCard key={hero.id} {...hero}/>
             ))}
 
         </div>

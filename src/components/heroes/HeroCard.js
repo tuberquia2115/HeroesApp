@@ -1,5 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import dcbatman from '../../assets/heroes/dc-batman.jpg'
+
 
 export const HeroCard = ({
     id,
@@ -12,7 +14,7 @@ export const HeroCard = ({
         <div className="card ms-3" style={{ maxWidth: '540px' }}>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={"https://www.clipartmax.com/png/middle/31-312663_wolverine-clipart-marvel-heroes-and-villains.png"} alt={superhero} className="card-img" />
+                    <img src={dcbatman} alt={superhero} className="card-img" />
                 </div>
                 <div className="col-md-8 ">
                     <div className="card-body">
